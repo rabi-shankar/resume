@@ -1,0 +1,27 @@
+<div class="section">
+    <p class="section-icon"><i class="fas fa-laptop-code"></i> Personal Project & experience: </p>
+    <table class="table table-bordered section-t">
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>PROJECT</th>
+                <th class="m-size">MEMBER(s)</th>
+                <th class="m-size">ROLE</th>
+                <th class="m-size">TOOLS/TECHNOLOGY</th>
+                <th>DESCRIPTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for  project in site.data.resume.projects %}
+            <tr>
+                <td>{{forloop.index}}</td>
+                <td class="m-size"><b>{{ project.name }}</b></td>
+                <td class="m-size t-center">{{ project.member }}</td>
+                <td class="m-size">{{project.role}}</td>
+                <td class="m-size">{{project.tools-technology}}</td>
+                <td class="m-size">{{ project.description}} {% if project.url %}, <a class="url" href="{{ project.url}}" target="_blank" > {{ project.url}}</a>{% endif %}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

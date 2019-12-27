@@ -75,6 +75,10 @@ body { font-family: 'Poppins', sans-serif; }
 .m-size-v { display: none; }
 @media (max-width: 675px) { .m-size-v { display: block; } }
 
+.url { font-size: 10px; }
+
+.t-center { text-align: center; vertical-align: middle; }
+
 .no-margin { margin: 0px; }
 
 @media (max-width: 675px) { .autohide { display: none; } }

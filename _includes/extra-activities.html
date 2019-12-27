@@ -1,9 +1,9 @@
-{% if site.data.resume.extra-activities %}
+{% if site.data.resume.hobbies %}
 <div class="section">
-    <p class="section-icon"><i class="fas fa-icons"></i> Extra Curricular Activities: </p>
+    <p class="section-icon"><i class="fas fa-icons"></i> Hobbies: </p>
     <ul class="fa-ul">
-        {% for activitie in site.data.resume.extra-activities %}
-        <li><span class="fa-li"><i class="far fa-dot-circle fa-xs"></i></span><p class="no-margin" >{{activitie.activity}}</p></li>
+        {% for h in site.data.resume.hobbies %}
+        <li><span class="fa-li"><i class="far fa-dot-circle fa-xs"></i></span><p class="no-margin" >{{h.hobbie}}</p></li>
         {% endfor %}
     </ul>
 </div>

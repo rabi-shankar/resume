@@ -4,8 +4,7 @@ degree: B.Tech. Computer Science & Engineering (2013-17)
 mobile: +91 6205 857105
 email: shankar.rabi24@gmail.com
 weblink: https://aboutrabi.weebly.com
-pdf: url#
-
+pdf: rabi-shankar's-resume.pdf
 objective: To work in an organization that gives me an opportunity to show my skills, abilities and enhance it with changing trends and environment to develop myself as a whole.
 
 
@@ -24,6 +23,67 @@ qualifications:
       university: CBSE
       institute: Jawahar Navodaya Vidyalaya, East Singhbhum
       result: 72.0%
+
+projects:
+    - name: Portfolio website
+      member: 1
+      role: Frontend Designer
+      tools-technology: Photoshop , HTML, CSS, JS
+      description: Resume & Portfolio website
+      url: https://rshankarmandi.weebly.com/home.html
+
+    - name: CareYour Baby (android application)
+      member: 2
+      role: Developer
+      tools-technology: Photoshop, Android Studio, Arduino Uno, SIM808 GPS GSM Module, Firebase, PHP,PowerPoint
+      description: Android app + Small Hardware device help the parents to locate the Child. (My BTech Project)
+
+    - name: Beyond Night Sky (BNS Club Website)
+      member: 9
+      role: Web Handler & Resource Developer
+      tools-technology: Photoshop , HTML, CSS, JS, PowerPoint
+      description: Beyond Night Sky is a group of people who are passionate about astronomy
+      url: http://newbnsly.weebly.com/
+
+
+    - name: BPUTCal+ (android application)
+      member: 1
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, PowerPoint
+      description: BputCal+ help freshman in BPUT who are not acquainted with SGPA calculations. It currently supports SGPA calculation of all branches of BTech.
+      url: https://github.com/rabi-shankar/BputCal-
+
+    - name: Youngbytes website
+      member: 5
+      role: Web Developer/ Designer
+      tools-technology: Photoshop , HTML, CSS, JS, PowerPoint
+      description: Group of CSE students whose aim is to teach everyone about computer at a basic level and motivate.
+      url: http://youngbytes.weebly.com
+
+
+    - name: eKart (android application)
+      member: 2
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, Firebase, PowerPoint
+      description: The simple android app demonstrates the function of Shopping App
+      url: https://github.com/rabi-shankar/eKart
+
+    - name: Simple Contact (android application)
+      member: 1
+      role: UI+UX designer & Developer
+      tools-technology: Photoshop, Android Studio, PHP, PowerPoint, Fast2SMS API
+      description: Android app that can send an OTP to a list of contacts using online services Fast2SMS
+      url: https://rabi-shankar.github.io/SimpleContact/
+
+
+    - name: Resume website
+      member: 1
+      role: Web Developer/ Designer
+      tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, YAML, Liquid
+      description: Group of CSE students whose aim is to teach everyone about computer at a basic level and motivate.
+      url: http://youngbytes.weebly.com
+
+
 
 
 
@@ -57,11 +117,8 @@ achievements:
 
  
         
-extra-activities:
-        - activity: Trained in <b>Indian Classical Dance</b>
-        - activity: Member of <b>NAC (NIST Astronomy Club)</b> and <b>NCS (NIST Counselling Service)</b> [NIST - National Institute of Science and Technology]
-        - activity: Written articles for <b>Club Magazine</b>
-
+hobbies:
+        - hobbie: Learning about Theoretical Astronomy & Cosmology (Curved Space-Time / Black Hole Science)        
 
 
 personal :
