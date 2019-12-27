@@ -32,7 +32,7 @@ body { font-family: 'Poppins', sans-serif; }
 @media (max-width: 675px) { .btn-size { width: 126px; } }
 
 @media print { #not-print { display: none; } }
-.resume-paper.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; padding-top: 32px; padding-bottom: 52px; }
+.resume-paper.card { border-radius: 15px; text-decoration: none !important; padding-top: 32px; padding-bottom: 34px; }
 .resume-paper.card:hover { box-shadow: -2px 6px 22px -12px rgba(0, 0, 0, 0.24); }
 
 .person { border: 10px solid transparent; width: 14%; height: 14%; border-radius: 50%; float: left; }

@@ -4,11 +4,11 @@
         <thead>
             <tr>
                 <th>NO.</th>
-                <th>PROJECT</th>
+                <th >PROJECT</th>
                 <th class="m-size">MEMBER(s)</th>
                 <th class="m-size">ROLE</th>
                 <th class="m-size">TOOLS/TECHNOLOGY</th>
-                <th>DESCRIPTION</th>
+                <th class="m-size">DESCRIPTION</th>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +16,7 @@
             <tr>
                 <td>{{forloop.index}}</td>
                 <td class="m-size"><b>{{ project.name }}</b></td>
+                <td class="m-size-v"><b>{{ project.name }} </b>: {{ project.description}} {% if project.url %}, <a class="url" href="{{ project.url}}" target="_blank" > {{ project.url}}</a>{% endif %} <br><b>Tools Used:</b> {{project.tools-technology}} </td>
                 <td class="m-size t-center">{{ project.member }}</td>
                 <td class="m-size">{{project.role}}</td>
                 <td class="m-size">{{project.tools-technology}}</td>
