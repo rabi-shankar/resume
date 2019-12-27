@@ -1,9 +1,9 @@
 # Site settings
-title: Manisha Panda's Resume
+title: Rabi Shankar's Resume
 nickname: mullu
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello, I am Manisha Panda and this is my Online Resume
-baseurl: "/manisha-resume"  # the subpath of your site
+  Hello, I am Rabi Shankar and this is my Online Resume
+baseurl: "/resume"  # the subpath of your site
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 repository: '' 
 
