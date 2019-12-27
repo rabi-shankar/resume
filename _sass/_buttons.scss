@@ -1,0 +1,13 @@
+.btn-size{
+  width: 150px;
+
+  @media (max-width: $screen-mobile) {
+    width: 126px;
+  }
+}
+
+@media print {
+  #not-print {
+    display: none;
+  }
+}

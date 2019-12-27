@@ -1,0 +1,65 @@
+.section{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.section-icon{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 18px;
+}
+.section-boby{
+    padding: 0px;
+}
+
+.section-p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.section-t{
+    font-size: 14px;
+}
+
+
+.skill-name{
+    font-size: 14px;
+    margin: 0px;
+}
+
+.sub-namez{
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.sub-skills{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.m-size{
+    @media (max-width: $screen-mobile) {
+        display: none;
+      }
+}
+.m-size-v{
+    display: none;
+    @media (max-width: $screen-mobile) {
+        display: block;
+      }
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.autohide{
+    @media (max-width: $screen-mobile) {
+        display: none;
+      }
+}
+.autosize{
+    @media (max-width: $screen-mobile) {
+        font-size: 14px;
+      }
+}

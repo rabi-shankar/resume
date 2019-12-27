@@ -1,0 +1,11 @@
+{% if site.data.resume.signature %}
+<div class="section">
+    <p class="section-icon"><i class="far fa-check-square"></i> Declaration</p>
+    <p class="section-p">I hereby declare that the details furnished above are true and correct to the best of my knowledge.</p c>
+        <p class="sign"><b>{{site.data.resume.name | capitalize }}</b></p>
+        <div class="date-loc">
+            <p class="no-margin"> Date: {{site.data.resume.signature.date }}</p>
+            <p class="no-margin">Place: {{site.data.resume.signature.place }} </p>
+        </div>
+</div>
+{% endif %}

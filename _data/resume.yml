@@ -1,0 +1,104 @@
+name: MANISHA PANDA
+profile-pic: manisha-panda.jpg
+degree: B.Tech, Civil Engineering (2013-17)
+mobile: '+91 8917 447465'
+email: 'manishapanda9525@gmail.com'
+website: 
+pdf: Manisha_Panda_s_resume.pdf
+
+objective: 'Seeking an excellent position in the domain of Software Quality Assurance Engineering, providing me with
+        the opportunity to make a strong contribution to organizational goals through continued development of
+        professional skills and expertise.'
+
+
+qualifications:
+    - degree: B.Tech in Civil Engineering  (2017)
+      university: BPUT
+      institute: National Institute of Science and Technology, Berhampur
+      result: 7.61 CGPA
+
+    - degree: Intermediate (2012)
+      university: CHSE
+      institute: Govt. Junior College, Rourkela
+      result: 57.33%
+
+    - degree: Matriculation (2010)
+      university: ICSE
+      institute: Chinmaya Vidyalaya, Rourkela
+      result: 84.44%
+
+
+
+technical-skills:
+      - skill-name: Manual Testing
+        subs:
+        - namez: Knowledge of writing Test cases.
+          sub-skills:
+                - skill: Smoke testing, Functional testing, Integration testing, System testing, Regression Testing,
+                - skill: Performing testing, Database testing, Adhoc Testing etc.
+                - skill: Having good knowledge in the bug life cycle.
+        - namez: Knowledge of defect tracking tools like - <b>Bugzilla</b>
+        - namez: Analysing requirement and preparing test scenarios.
+          sub-skills:
+                - skill: Good understanding of Agile methodology
+                - skill: Good understanding of SDLC and STLC
+               
+
+      - skill-name: Selenium
+        subs:
+        - namez: Good Knowledge on <b>Selenium web driver</b>.
+        - namez: Identifying the objects - All 8 type of locators with Xpath
+        - namez: Good knowledge of collections.
+        - namez: Knowledge on <b>Java</b> Basics
+          sub-skills:
+                - skill: Knowledge of creating <b>class</b> and <b>object</b> 
+                - skill: Familiar with the <b>static</b> and <b>non-static</b> declaration and how to initialize
+                - skill: Very good in implementing behaviour for class and how to <b>overload</b> and <b>override</b>
+                - skill: Knowledge in <b>acquiring properties of another class</b>
+                - skill: Having knowledge of how a class have full control over its <b>data member</b> 
+                - skill: Good knowledge on achieving <b>multiple inheritances</b>
+                - skill: Knowledge in <b>Arrays</b> and <b>String</b>
+
+
+seminar-and-workshop:
+        - sw: Project on Pedestrian-Vehicle Interaction
+        - sw: Workshop on <b>TeklaBIM, SAP2000</b> in Megalith from IIT Kharagpur
+        - sw: Seminar on <b>R & D</b>
+        - sw: Seminar on <b>Water Resources Application</b>
+        - sw: Seminar on <b>Composite Material</b>
+
+
+
+achievements:
+        - achieve: <b>UTSE</b> qualified
+        - achieve: Placed 1st in <b>Bharatiya Sanskrit Gyan Pariksha</b>
+        - achieve: Participated in <b>“Rotolare”</b> in IIT Kharagpur
+        - achieve: The distinction in <b>Indian Classical Dance</b>
+        - achieve: Placed 2nd in <b>Interstate Dance</b> Competition
+
+
+
+key-skills:
+        - skill: Computer Languages - <b>C, C++, DBMS, MS Office</b>
+        - skill: Comprehensive problem-solving abilities
+        - skill: Effictive communication skills, planning and research skills, hardworking, good team player
+
+ 
+        
+extra-activities:
+        - activity: Trained in <b>Indian Classical Dance</b>
+        - activity: Member of <b>NAC (NIST Astronomy Club)</b> and <b>NCS (NIST Counselling Service)</b> [NIST - National Institute of Science and Technology]
+        - activity: Written articles for <b>Club Magazine</b>
+
+
+
+personal :
+        birth: 25th Oct 1995
+        father: Jagannath Panda
+        mother: Sudeshna Panda
+        address: House No - A/103, Sector-20, Rourkela, Sundergarh, Pin-769005
+        languages: Odia, English & Hindi
+
+signature: 
+        date: 24 Dec 2019
+        place: Hyderabad

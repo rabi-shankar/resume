@@ -1,0 +1,10 @@
+{% if site.data.resume.extra-activities %}
+<div class="section">
+    <p class="section-icon"><i class="fas fa-icons"></i> Extra Curricular Activities: </p>
+    <ul class="fa-ul">
+        {% for activitie in site.data.resume.extra-activities %}
+        <li><span class="fa-li"><i class="far fa-dot-circle fa-xs"></i></span><p class="no-margin" >{{activitie.activity}}</p></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

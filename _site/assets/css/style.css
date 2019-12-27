@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Baloo+Bhai|Caveat|Indie+Flower|Open+Sans+Condensed:300|Poiret+One|Quicksand|Raleway|Righteous&display=swap");
+body { font-family: 'Poppins', sans-serif; }
+
+.badge { font-weight: 500; }
+
+#container { display: inline-block; position: relative; width: 100%; }
+
+.social { text-decoration: none !important; color: #6c757d; }
+.social.twitter:hover { color: #1da1f2; }
+.social.facebook:hover { color: #3b5998; }
+.social.email:hover { color: #db4437; }
+.social.github:hover { color: #333333; }
+.social.linkedin:hover { color: #007bb5; }
+
+@media (max-width: 675px) { .credit { font-size: 10px; } }
+
+.developer-sign { font-family: 'Reenie Beanie', cursive; font-size: 18px; color: #007bff; text-decoration: none !important; }
+@media (max-width: 675px) { .developer-sign { font-size: 16px; } }
+
+.link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ''; display: block; height: .15em; background: #007bff; }
+
+.nav-link::after, .navbar-brand::after { width: 0; transition: width .35s; }
+.nav-link:hover::after, .navbar-brand:hover::after { width: 100%; }
+
+.nav-item.active { font-weight: bold; }
+.nav-item.active::after { width: 100% !important; }
+
+.navbar-brand { margin-bottom: -14px; }
+.navbar-brand::after { margin-top: -.25em; }
+
+.btn-size { width: 150px; }
+@media (max-width: 675px) { .btn-size { width: 126px; } }
+
+@media print { #not-print { display: none; } }
+.resume-paper.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; padding-top: 32px; padding-bottom: 52px; }
+.resume-paper.card:hover { box-shadow: -2px 6px 22px -12px rgba(0, 0, 0, 0.24); }
+
+.person { border: 10px solid transparent; width: 20%; height: 20%; border-radius: 50%; float: left; }
+@media (max-width: 675px) { .person { width: 40%; height: 40%; float: none; display: block; margin-left: auto; margin-right: auto; } }
+
+.person:hover { border-color: #f1f1f1; }
+
+.resume-header { margin-top: 24px; margin-left: 22px; display: inline-block; }
+@media (max-width: 675px) { .resume-header { display: block; margin-top: 0px; margin-left: 0px; padding-left: 0px; } }
+
+.name { font-family: 'Baloo Bhai', cursive; }
+@media (max-width: 675px) { .name { font-size: 32px; text-align: center; margin-bottom: 0px; } }
+
+.degree { display: flex; font-size: 20px; }
+@media (max-width: 675px) { .degree { font-size: 16px; text-align: center; display: block; } }
+
+.contact { margin-left: 22px; padding-left: 12px; border-bottom: 4px solid #007bff; padding-bottom: 15px; }
+@media (max-width: 675px) { .contact { display: block; font-size: 14px; margin-top: 0px; margin-left: 0px; border-left: 4px solid #007bff; padding-left: 0px; border-bottom: 0px solid; padding-bottom: 0px; } }
+
+.action { text-decoration: none !important; color: #343a40; }
+
+.section { display: inline-block; margin-top: 40px; }
+
+.section-icon { font-family: 'Baloo Bhai', cursive; font-size: 18px; }
+
+.section-boby { padding: 0px; }
+
+.section-p { text-align: justify; font-size: 14px; }
+
+.section-t { font-size: 14px; }
+
+.skill-name { font-size: 14px; margin: 0px; }
+
+.sub-namez { font-size: 14px; margin-top: 4px; margin-bottom: 4px; }
+
+.sub-skills { font-size: 12px; margin: 0px; }
+
+@media (max-width: 675px) { .m-size { display: none; } }
+
+.m-size-v { display: none; }
+@media (max-width: 675px) { .m-size-v { display: block; } }
+
+.no-margin { margin: 0px; }
+
+@media (max-width: 675px) { .autohide { display: none; } }
+
+@media (max-width: 675px) { .autosize { font-size: 14px; } }
+
+.sign { font-family: 'Caveat', cursive; font-size: 24px; margin: 0px; }
+
+.date-loc { font-size: 12px; }
+
+/* width */
+::-webkit-scrollbar { width: 6px; }
+
+/* Track */
+::-webkit-scrollbar-track { background: #f1f1f1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb { background: #007bff; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover { background: #888; width: 10px; }

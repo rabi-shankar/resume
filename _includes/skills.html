@@ -1,0 +1,30 @@
+<div class="section">
+  <p class="section-icon"><i class="fas fa-laptop"></i></i> Technical Skills: </p>
+  <div class="section-boby">
+   
+  </div>
+</div>
+
+
+<ul class="fa-ul">
+  {% for t-skill in site.data.resume.technical-skills %}
+  <li> <span class="fa-li"><i class="fas fa-horse-head"></i></span> <b class="skill-name">{{ t-skill.skill-name | upcase}}</b>
+    {% if t-skill.subs %}
+    <ul class="fa-ul">
+      {% for sub in t-skill.subs %}
+      <li><span class="fa-li"><i class="fab fa-cloudscale fa-pulse"></i></span><p class="sub-namez">{{ sub.namez }}</p>
+        {% if sub.sub-skills %}
+        <ul class="fa-ul">
+          {% for s-skill in sub.sub-skills %}
+          <li><p class="sub-skills"><span class="fa-li"><i class="far fa-dot-circle"></i></span>{{s-skill.skill}}</p>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li> 
+  {% endfor %}
+</ul>

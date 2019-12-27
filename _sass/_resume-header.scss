@@ -1,0 +1,72 @@
+.person {
+    border: 10px solid transparent;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    float: left;
+    @media (max-width: $screen-mobile) {
+      width: 40%;
+      height: 40%;
+      float: none;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+		}
+    
+  }
+  .person:hover {
+    border-color: #f1f1f1;
+  }
+
+  .resume-header{
+    margin-top: 24px;
+    margin-left: 22px;
+    display: inline-block;
+    @media (max-width: $screen-mobile) {
+      display: block;
+      margin-top: 0px;
+      margin-left: 0px;
+      padding-left: 0px;
+		}
+  }
+  .name{
+    font-family: 'Baloo Bhai', cursive;
+    @media (max-width: $screen-mobile) {
+      font-size:32px;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+  }
+
+  .degree{
+    display: flex;
+    font-size:20px;
+    @media (max-width: $screen-mobile) {
+      font-size:16px;
+      text-align: center;
+      display: block;
+    }
+  }
+
+  .contact{
+    margin-left: 22px;
+    padding-left: 12px;
+    border-bottom: 4px solid $primary;
+    padding-bottom: 15px;
+
+    @media (max-width: $screen-mobile) {
+      display: block;
+      font-size:14px;
+      margin-top: 0px;
+      margin-left: 0px;
+      border-left: 4px solid $primary;
+      padding-left: 0px;
+      border-bottom: 0px solid;
+      padding-bottom: 0px;
+		}
+  }
+
+  .action{
+    text-decoration: none !important;
+    color: $dark ;
+  }

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.badge {
+    font-weight: 500;
+}
+
+
+#container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+
+
+// Footer
+.social {
+    text-decoration: none !important;
+    color: #6c757d;
+
+    &.twitter:hover  { color: #1da1f2 }
+    &.facebook:hover { color: #3b5998 }
+    &.email:hover    { color: #db4437 }
+    &.github:hover   { color: #333333 }
+    &.linkedin:hover { color: #007bb5 }
+}
+
+.credit{
+    @media (max-width: $screen-mobile) {
+        font-size:10px;
+        }
+}
+
+.developer-sign{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 18px;
+    color: $primary;
+    text-decoration: none !important;
+    @media (max-width: $screen-mobile) {
+        font-size:16px;
+        }
+}

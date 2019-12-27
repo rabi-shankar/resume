@@ -1,0 +1,11 @@
+{% if site.data.resume.seminar-and-workshop %}
+<div class="section">
+    <p class="section-icon"><i class="fas fa-cubes"></i> Seminar and Workshop: </p>
+    <ul class="fa-ul">
+        {% for seminar in site.data.resume.seminar-and-workshop %}
+        <li><span class="fa-li"><i class="far fa-dot-circle fa-xs"></i></span><p class="no-margin" >{{seminar.sw}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}

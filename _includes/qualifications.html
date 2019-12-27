@@ -1,0 +1,26 @@
+<div class="section">
+    <p class="section-icon"><i class="fas fa-graduation-cap"></i> Qualifications: </p>
+    <table class="table table-bordered section-t">
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th>DEGREE</th>
+                <th class="m-size">UNIVERSITY</th>
+                <th class="m-size">INSTITUTE</th>
+                <th>RESULT</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for  qualification in site.data.resume.qualifications %}
+            <tr>
+                <td>{{forloop.index}}</td>
+                <td class="m-size">{{ qualification.degree }}</td>
+                <td class="m-size-v"><b>{{ qualification.degree }}</b> , {{ qualification.institute}}</td>
+                <td class="m-size">{{qualification.university}}</td>
+                <td class="m-size">{{ qualification.institute}}</td>
+                <td>{{qualification.result}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// Custom Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins|Baloo+Bhai|Caveat|Indie+Flower|Open+Sans+Condensed:300|Poiret+One|Quicksand|Raleway|Righteous&display=swap');
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables",
+        "base",
+        "navbar",
+        "buttons",
+        "resume-paper",
+        "resume-header",
+        "section-style",
+        "qualifications",
+        "signature",
+        "scrollbar";

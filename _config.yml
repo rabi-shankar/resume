@@ -1,0 +1,31 @@
+# Site settings
+title: Manisha Panda's Resume
+nickname: mullu
+description: >- # this means to ignore newlines until "baseurl:"
+  Hello, I am Manisha Panda and this is my Online Resume
+baseurl: "/manisha-resume"  # the subpath of your site
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: '' 
+
+
+# Build settings
+markdown: kramdown
+
+
+# Author Info
+author:
+  name     : Rabi Shankar
+  website  : https://aboutrabi.weebly.com/
+  email    : shankar.rabi24@gmail.com
+  github   : https://github.com/rabi-shankar
+  twitter  : https://twitter.com/shankar_mandi
+  linkedin : https://in.linkedin.com/in/rabishankar-mandi-89081a117
+  facebook : https://www.facebook.com/rabi.shankar.77
+
+# Exclude from processing.
+exclude:
+- README.md
+- CONTRIBUTING.md
+- LICENSE
+- Gemfile
+- Gemfile.lock
