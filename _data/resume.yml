@@ -80,7 +80,7 @@ projects:
       member: 1
       role: Web Developer/ Designer
       tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, Jekyll, YAML, Liquid
-      description: simple and plan Online Resume. static website create  Jekyll and host in Github site support print and pdf download resume
+      description: Online Resume. simple & plane static website created in Jekyll and hosting on Github. Support print and download in PDF
       url: https://rabi-shankar.github.io/resume/
 
 
