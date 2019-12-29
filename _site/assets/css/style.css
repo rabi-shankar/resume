@@ -12,10 +12,10 @@ body { font-family: 'Poppins', sans-serif; }
 .social.github:hover { color: #333333; }
 .social.linkedin:hover { color: #007bb5; }
 
-@media (max-width: 675px) { .credit { font-size: 10px; } }
+@media (max-width: 992px) { .credit { font-size: 10px; } }
 
 .developer-sign { font-family: 'Reenie Beanie', cursive; font-size: 18px; color: #007bff; text-decoration: none !important; }
-@media (max-width: 675px) { .developer-sign { font-size: 16px; } }
+@media (max-width: 992px) { .developer-sign { font-size: 16px; } }
 
 .link-after, .nav-link::after, .navbar-brand::after, .nav-item.active::after { content: ''; display: block; height: .15em; background: #007bff; }
 
@@ -29,28 +29,28 @@ body { font-family: 'Poppins', sans-serif; }
 .navbar-brand::after { margin-top: -.25em; }
 
 .btn-size { width: 150px; }
-@media (max-width: 675px) { .btn-size { width: 126px; } }
+@media (max-width: 992px) { .btn-size { width: 126px; } }
 
 @media print { #not-print { display: none; } }
 .resume-paper.card { border-radius: 15px; text-decoration: none !important; padding-top: 32px; padding-bottom: 34px; }
 .resume-paper.card:hover { box-shadow: -2px 6px 22px -12px rgba(0, 0, 0, 0.24); }
 
 .person { border: 10px solid transparent; width: 14%; height: 14%; border-radius: 50%; float: left; }
-@media (max-width: 675px) { .person { width: 40%; height: 40%; float: none; display: block; margin-left: auto; margin-right: auto; } }
+@media (max-width: 992px) { .person { width: 40%; height: 40%; float: none; display: block; margin-left: auto; margin-right: auto; } }
 
 .person:hover { border-color: #f1f1f1; }
 
 .resume-header { margin-top: 24px; margin-left: 22px; display: inline-block; }
-@media (max-width: 675px) { .resume-header { display: block; margin-top: 0px; margin-left: 0px; padding-left: 0px; } }
+@media (max-width: 992px) { .resume-header { display: block; margin-top: 0px; margin-left: 0px; padding-left: 0px; } }
 
 .name { font-family: 'Baloo Bhai', cursive; font-size: 54px; text-transform: uppercase; }
-@media (max-width: 675px) { .name { font-size: 32px; text-align: center; margin-bottom: 0px; } }
+@media (max-width: 992px) { .name { font-size: 32px; text-align: center; margin-bottom: 0px; } }
 
 .degree { display: flex; font-size: 20px; }
-@media (max-width: 675px) { .degree { font-size: 16px; text-align: center; display: block; } }
+@media (max-width: 992px) { .degree { font-size: 16px; text-align: center; display: block; } }
 
 .contact { margin-left: 22px; padding-left: 12px; border-bottom: 4px solid #007bff; padding-bottom: 15px; font-size: 14px; }
-@media (max-width: 675px) { .contact { display: block; font-size: 14px; margin-top: 0px; margin-left: 0px; border-left: 4px solid #007bff; padding-left: 0px; border-bottom: 0px solid; padding-bottom: 0px; } }
+@media (max-width: 992px) { .contact { display: block; font-size: 14px; margin-top: 0px; margin-left: 0px; border-left: 4px solid #007bff; padding-left: 0px; border-bottom: 0px solid; padding-bottom: 0px; } }
 
 .action { text-decoration: none !important; color: #343a40; }
 
@@ -70,10 +70,10 @@ body { font-family: 'Poppins', sans-serif; }
 
 .sub-skills { font-size: 12px; margin: 0px; }
 
-@media (max-width: 675px) { .m-size { display: none; } }
+@media (max-width: 992px) { .m-size { display: none; } }
 
 .m-size-v { display: none; }
-@media (max-width: 675px) { .m-size-v { display: block; } }
+@media (max-width: 992px) { .m-size-v { display: block; } }
 
 .url { font-size: 10px; }
 
@@ -81,9 +81,9 @@ body { font-family: 'Poppins', sans-serif; }
 
 .no-margin { margin: 0px; }
 
-@media (max-width: 675px) { .autohide { display: none; } }
+@media (max-width: 992px) { .autohide { display: none; } }
 
-@media (max-width: 675px) { .autosize { font-size: 14px; } }
+@media (max-width: 992px) { .autosize { font-size: 14px; } }
 
 .sign { font-family: 'Reenie Beanie', cursive; font-size: 24px; margin: 0px; color: #2013de; }
 
