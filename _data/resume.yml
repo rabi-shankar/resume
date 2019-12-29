@@ -79,8 +79,8 @@ projects:
     - name: Resume website
       member: 1
       role: Web Developer/ Designer
-      tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, YAML, Liquid
-      description: Group of CSE students whose aim is to teach everyone about computer at a basic level and motivate.
+      tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, Jekyll, YAML, Liquid
+      description: simple and plan Online Resume. static website create  Jekyll and host in Github site support print and pdf download resume
       url: https://rabi-shankar.github.io/resume/
 
 
