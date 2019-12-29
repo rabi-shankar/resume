@@ -16,7 +16,7 @@
             <tr>
                 <td>{{forloop.index}}</td>
                 <td class="m-size"><b>{{ project.name }}</b></td>
-                <td class="m-size-v"><b>{{ project.name }} </b>: {{ project.description}} {% if project.url %}, <a class="url" href="{{ project.url}}" target="_blank" > {{ project.url}}</a>{% endif %} <br><b>Tools Used:</b> {{project.tools-technology}} </td>
+                <td class="m-size-v"><b>{{ project.name }} </b>: {{ project.description}}<br><b> Tools Used:</b> {{project.tools-technology}}. {% if project.url %}, <a class="url" href="{{ project.url}}" target="_blank" > {{ project.url}}</a>{% endif %}</td>
                 <td class="m-size t-center">{{ project.member }}</td>
                 <td class="m-size">{{project.role}}</td>
                 <td class="m-size">{{project.tools-technology}}</td>
