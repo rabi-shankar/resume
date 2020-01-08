@@ -1,4 +1,4 @@
 <div class="mt-auto py-3 text-center">
-    <a id="not-print" href="assets/files/{{ site.data.resume.pdf }}" class="btn btn-primary btn-md btn-size" btn-md"><i class="fas fa-file-pdf"></i> Download</a i>
+    {% if site.data.resume.pdf %}<a id="not-print" href="assets/files/{{ site.data.resume.pdf }}" class="btn btn-primary btn-md btn-size" btn-md"><i class="fas fa-file-pdf"></i> Download</a i>{% endif %}
     <a id="not-print" href="#" onclick="window.print();return false;" class="btn btn-primary btn-md btn-size" btn-md"><i class="fas fa-print"></i> Print</a>
 </div>
