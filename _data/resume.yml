@@ -85,7 +85,15 @@ projects:
      
      
      
-    - name: Birthday App
+    - name: Birthday App (v1)
+      member: 1
+      role: Android Developer/ Designer/ Graphoics designee.
+      tools-technology: Android Studio, Photoshop, PowerPoint
+      description: Android App that can use for birthday celebration with virtual birthday cake
+      url: https://github.com/rabi-shankar/Manu
+
+
+    - name: Birthday App (v2)
       member: 1
       role: Android Developer/ Designer/ Graphoics designee.
       tools-technology: Android Studio, Photoshop ,PowerPoint
