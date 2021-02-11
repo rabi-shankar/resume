@@ -82,6 +82,15 @@ projects:
       tools-technology: Photoshop , HTML, CSS, JS,  Bootstrap 3, Jekyll, YAML, Liquid
       description: Online Resume. simple & plane static website created in Jekyll and hosting on Github. Support print and download in PDF
       url: https://rabi-shankar.github.io/resume/
+     
+     
+     
+    - name: Birthday App
+      member: 1
+      role: Android Developer/ Designer/ Graphoics designee.
+      tools-technology: Android Studio, Photoshop ,PowerPoint
+      description: Android App that can use for birthday celebration with virtual birthday cake
+      url: https://github.com/rabi-shankar/Mullu
 
 
 
