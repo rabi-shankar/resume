@@ -37,6 +37,7 @@ projects:
       role: Developer
       tools-technology: Photoshop, Android Studio, Arduino Uno, SIM808 GPS GSM Module, Firebase, PHP,PowerPoint
       description: Android app + Small Hardware device help the parents to locate the Child. (My BTech Project)
+      url: https://github.com/rabi-shankar/Care-your-baby
 
     - name: Beyond Night Sky (BNS Club Website)
       member: 9
