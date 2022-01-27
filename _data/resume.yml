@@ -87,7 +87,7 @@ projects:
 
     - name: Mullu (Celebration with virtual cake)
       member: 1
-      role: Android Developer/ Designer/ Graphics Designer.
+      role: Android Developer/ Graphics Designer.
       tools-technology: Android Studio, Photoshop ,PowerPoint
       description: Birthday celebration with virtual cake , where user can  blowing air into the cake (use phone microphone to detect air flow ) and giving feel like real cake
       url: https://github.com/rabi-shankar/Mullu
