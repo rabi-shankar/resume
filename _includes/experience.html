@@ -7,6 +7,8 @@
                 <th >COMPANY</th>
                 <th class="m-size">YAER</th>
                 <th class="m-size">DESIGNATION</th>
+                <th class="m-size">JOIN DATE</th>
+                <th class="m-size">LEAVING DATE</th>
             </tr>
         </thead>
         <tbody>
@@ -16,6 +18,8 @@
                 <td class="m-size"><b>{{ experience.company }}</b></td>
                 <td class="m-size t-center">{{ experience.year }}</td>
                 <td class="m-size">{{experience.role}}</td>
+                <td class="m-size">{{experience.start}}</td>
+                <td class="m-size">{{experience.end}}</td>
             </tr>
             {% endfor %}
         </tbody>
