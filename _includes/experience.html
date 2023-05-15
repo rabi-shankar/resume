@@ -13,9 +13,9 @@
             {% for  experience in site.data.resume.experience %}
             <tr>
                 <td>{{forloop.index}}</td>
-                <td class="m-size"><b>{{ experience.name }}</b></td>
-                <td class="m-size t-center">{{ project.experience }}</td>
-                <td class="m-size">{{project.role}}</td>
+                <td class="m-size"><b>{{ experience.company }}</b></td>
+                <td class="m-size t-center">{{ experience.year }}</td>
+                <td class="m-size">{{experience.role}}</td>
             </tr>
             {% endfor %}
         </tbody>
