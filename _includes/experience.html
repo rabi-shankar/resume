@@ -1,0 +1,23 @@
+<div class="section">
+    <p class="section-icon"><i class="fas fa-laptop-code"></i> Profesonal Experience: </p>
+    <table class="table table-bordered section-t">
+        <thead>
+            <tr>
+                <th>NO.</th>
+                <th >COMPANY</th>
+                <th class="m-size">YAER</th>
+                <th class="m-size">DESIGNATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for  experience in site.data.resume.experience %}
+            <tr>
+                <td>{{forloop.index}}</td>
+                <td class="m-size"><b>{{ experience.name }}</b></td>
+                <td class="m-size t-center">{{ project.experience }}</td>
+                <td class="m-size">{{project.role}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
