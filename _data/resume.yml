@@ -95,7 +95,7 @@ projects:
     - name: CryptoCipher (Text Encryption and Decryption)
       member: 1
       role: Developer/ Designer.
-      tools-technology: PHP, Github
+      tools-technology: PHP, Github, 000webhost.com
       description: CryptoCipher is a comprehensive and user-friendly web application designed to provide seamless and secure text encryption and decryption
       url: https://cryptocipherbasic.000webhostapp.com
 
