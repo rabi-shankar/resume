@@ -98,17 +98,17 @@ experience:
       year: 1
       role: Android Developer
       start: May 2022
-      end: 
+      end: Oct 2023
 
 
 technical-skills:
       - type: IT SKILL
         skills :
-           - name : Language – C, Java 8, Python 3, <b>Kotlin</b>, C++, HTML, JavaScript, PHP, SQL, CSS, Bootstrap 3, Jekyll, YAML, Liquid 
+           - name : Language – C, Java, Python 3, <b>Kotlin</b>, C++, HTML, JavaScript, PHP, SQL, CSS, Bootstrap 3, Jekyll, Json, YAML, Liquid 
            - name : Well versed with MS Office 2016
            - name : Android <b>Front-end</b> and <b>Back-end</b> 
+           - name : Jetpack Compose (Android)
            - name : Web developement <b>Front-end</b> and <b>Back-end</b> 
-           - name : SlimPHP 3 <b>(API)</b>
            - name : Git version control 
            - name : Graphics Designing
       
@@ -146,5 +146,5 @@ personal :
 
 signature: 
         sign: Rabi Shankar
-        date: 10 August 2023
+        date: 16 March 2024
         place: Jamshedpur
