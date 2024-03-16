@@ -92,6 +92,13 @@ projects:
       description: Birthday celebration with virtual cake , where user can  blowing air into the cake (use phone microphone to detect air flow ) and giving feel like real cake
       url: https://github.com/rabi-shankar/Mullu
 
+    - name: CryptoCipher (Text Encryption and Decryption)
+      member: 1
+      role: Developer/ Graphics Designer.
+      tools-technology: PHP, Github
+      description: CryptoCipher is a comprehensive and user-friendly web application designed to provide seamless and secure text encryption and decryption
+      url: https://cryptocipherbasic.000webhostapp.com
+
 
 experience:
     - company: Zarainforise
