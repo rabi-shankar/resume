@@ -97,8 +97,7 @@ projects:
       role: Developer/ Designer.
       tools-technology: PHP, Github, 000webhost.com
       description: CryptoCipher is a comprehensive and user-friendly web application designed to provide seamless and secure text encryption and decryption
-      url: https://cryptocipherbasic.000webhostapp.com
-
+      url: https://github.com/rabi-shankar/CryptoCipher
 
 experience:
     - company: Zarainforise
@@ -115,6 +114,8 @@ technical-skills:
            - name : Well versed with MS Office 2016
            - name : Android <b>Front-end</b> and <b>Back-end</b> 
            - name : Jetpack <b>Compose</b> (Android)
+           - name : Firebase (Authentication, Cloud Storage, Firestore, Realtime Database, Cloud Messaging, Crashlytics, Remote Config ...)
+           - name : AWS (RDS, Lambda,API Gateway,VPC)
            - name : Web developement <b>Front-end</b> and <b>Back-end</b> 
            - name : Git version control 
            - name : Graphics Designing
@@ -153,5 +154,5 @@ personal :
 
 signature: 
         sign: Rabi Shankar
-        date: 16 March 2024
+        date: 02 Jan 2025
         place: Jamshedpur
