@@ -110,11 +110,11 @@ experience:
 technical-skills:
       - type: IT SKILL
         skills :
-           - name : Language – C, Java, Python 3, <b>Kotlin</b>, C++, HTML, JavaScript, PHP, SQL, CSS, Bootstrap 3, Jekyll, Json, YAML, Liquid 
+           - name : Language – C, Java, Python 3, <b>Kotlin</b>, C++, HTML, JavaScript, SQL, CSS, Bootstrap 3, Jekyll 
            - name : Well versed with MS Office 2016
            - name : Android <b>Front-end</b> and <b>Back-end</b> 
            - name : Jetpack <b>Compose</b> (Android)
-           - name : Firebase (Authentication, Cloud Storage, Firestore, Cloud Messaging, Remote Config ...)
+           - name : <b>Firebase</b> (Authentication, Cloud Storage, Firestore, Cloud Messaging, Remote Config ...)
            - name : AWS (RDS, Lambda, API Gateway,VPC )
            - name : Git version control 
            - name : Graphics Designing
